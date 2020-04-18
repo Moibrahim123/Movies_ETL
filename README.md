@@ -7,16 +7,22 @@ While ETL can absolutely be used for a one-time transfer of data, it becomes rea
 Objectives 
 
 •	Create an automated ETL pipeline 
-•	Extract data from multiple sources 
+
+•Extract data from multiple sources 
+
 •	Clean and transform the data automatically using Pandas and regular expressions 
+
 •	Load new data into PostgreSQL 
 
 Instructions 
 
 1.	Create a function that takes in three arguments:
 •	Wikipedia data 
+
 •	Kaggle metadata 
+
 •	MoviesLens rating data (from Kaggle)
+
 2.	Use the code from your Jupyter Notebook so that the function performs all of the transformation steps. Remove any exploratory data analysis and redundant code.
 3.	Add the load steps from the Jupyter Notebook to the functions. You’ll need to remove the existing data from SQL, but keep the empty tables.
 4.	Check that the functions works correctly on the current Wikipedia and Kaggle data.
