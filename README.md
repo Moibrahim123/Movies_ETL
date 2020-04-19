@@ -1,10 +1,10 @@
 # Movies_ETL
 
-Background
+## Background
 
 While ETL can absolutely be used for a one-time transfer of data, it becomes really powerful when it can be automated as a repeated, ongoing process. Since this process will be running necessary to perform the exploratory data analysis steps. However, if new incoming data contains errors, the ETL process may hault or produce corrupted data. Adding try-except blocks will make the automated ETL script more robust to error. 
 
-Objectives 
+## Objectives 
 
 •	Create an automated ETL pipeline 
 
@@ -14,7 +14,7 @@ Objectives
 
 •	Load new data into PostgreSQL 
 
-Instructions 
+## Instructions 
 
 1.	Create a function that takes in three arguments:
 
@@ -29,7 +29,7 @@ Instructions
 4.	Check that the functions works correctly on the current Wikipedia and Kaggle data.
 5.	Document any assumptions that are being made. Use try-except blocks to account for unforeseen problems that may arise with new data.
 
-Assumptions
+## Assumptions
 
 1.	Add try-exempt blocks to the data to account imdb.id character count (extracting only ids with 7 characters).
 2.	Assume the imported wiki file needs to be cleaned.
